@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(0 , 0, 0, 1);
+    background-image: url(images/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.forms {
+    margin: auto;
+    width: 600px;
+    text-align: center;
+    background-color: rgb(0 , 0, 0, 0.6);
+    border-radius: 20px;
+}
+
+.Title {
+    font-size: 45px;
+    font-family: verdana;
+    text-align: center;
+    padding: 6px;
+    border-radius: 10px;
+    color: aquamarine;
+}
+
+.Data {
+    padding: 4px;
+    display: block;
+    margin: 10px auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    height: 20px;;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0.603);
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+label {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.b1:link, .b1:visited {
+    background: rgb(4, 95, 4);
+    font-size: 20px;
+    width: 80px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family:verdana;
+    border: 2px solid white;
+    display: inline-block;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.b1:hover{
+    background-color:rgb(5, 137, 5);
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    transform: scale(1.05) ;
+}
+.b1:active {
+    font-size: 14px;
+}
+
+.ES {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+#ComForg {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.Logo {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.507);
+    margin: 20px;
+    border-radius: 100px;
+}
+
+.redef {
+    color: rgb(27, 165, 119);
+}
